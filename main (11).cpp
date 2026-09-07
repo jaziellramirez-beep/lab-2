@@ -1,11 +1,12 @@
-/******************************************************************************
+///////////////////////////////////////////////////////////////
+// Name: Your name
+// Date: When did you finish it?
+// Course: CSCI 1470.04
+// Semester: Fall 2026
+// Instructor: Dr. Jonatan Reyes
+// Program Description: Brief description of program
+/////////////////////////////////////////////////////////////// 
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <iostream>
 using namespace std;
 #include <algorithm>
