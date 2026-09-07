@@ -1,10 +1,10 @@
 ///////////////////////////////////////////////////////////////
-// Name: Your name
-// Date: When did you finish it?
+// Name:Jaziel Ramirez
+// Date: ???
 // Course: CSCI 1470.04
 // Semester: Fall 2026
 // Instructor: Dr. Jonatan Reyes
-// Program Description: Brief description of program
+// Program Description: simulate shopping cart
 /////////////////////////////////////////////////////////////// 
 
 #include <iostream>
