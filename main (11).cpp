@@ -96,7 +96,7 @@ string storeName;
     // something?
     cout << fixed << setprecision(2);
     
-    // Print each item manually using its own variable
+    // Print each item 
     cout << left << setw(25) << item1 << " $" << price1 << endl;
     cout << left << setw(25) << item2 << " $" << price2 << endl;
     cout << left << setw(25) << item3 << " $" << price3 << endl;
