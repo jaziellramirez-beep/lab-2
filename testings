@@ -1,10 +1,10 @@
 case     input                                              expected output       actual inpiut                 statement
-1          apple,banna candy bar                             invalid             invalid
-2                                                        invalid              invalid
-3                                                          invalid              invalid
+1          apple,banna candy bar                             invalid             invalid                      getline needed
+2                                                        invalid              invalid            getline needed
+3                                                          invalid              invalid                         i dont know
 4                                                            invalid                  invalid             gor rid of redundant cin.ignore
-5                                                            invalid            invalid
-6                                                                  invalid      invalid
+5                                                            invalid            invalid              needed more getline for each item
+6                                                                  invalid      invalid             
 7                                                          invalid                invalid
 8                                                                   invalid                  invalid
 9                                                              invalid              invalid
