@@ -37,7 +37,7 @@ string storeName;
     cout<< "Enter employee full name: ";
     getline(cin, employeeName);
     cout<<endl;
-    cin.ignore();
+
 
 
 
