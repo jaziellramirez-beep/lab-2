@@ -1,20 +1,31 @@
-case     input                                              expected output       actual inpiut                 statement
-1          apple,banna candy bar                             invalid             invalid                      getline needed
-2                                                        invalid              invalid            getline needed
-3                                                          invalid              invalid                         i dont know
-4                                                            invalid                  invalid             gor rid of redundant cin.ignore
-5                                                            invalid            invalid              needed more getline for each item
-6                                                                  invalid      invalid             
-7                                                          invalid                invalid
-8                                                                   invalid                  invalid
-9                                                              invalid              invalid
-10                                                            invalid            invalid
-11                                                                  invalid                invalid
-12                                                                invalid                invalid
-13                                                                  valid            valid               not aligned
-14                                                                  valid                valid          not aligned
-15                                                                valid                    validn        worked(used decimal)
-16                                                                 valid                  valid            worked
-17                                                                  valid                 valid              worked
-18                                                                  valid                 valid              worked
-19                                                                    valid                 valid            worked
+case           input                                         expected output          actual inpiut                 statement
+1          apple,banna candy bar                                invalid                 invalid                  getline needed
+2              listing                                          invalid                 invalid                  getline needed
+3              listing                                          invalid                 invalid                  i dont know
+4              listing                                          invalid                 invalid             gor rid of redundant cin.ignore
+5              listing                                          invalid                 invalid            needed more getline for each item
+6              names                                            invalid                 invalid                 needed more variables
+7              listing                                          invalid                 invalid                    forgot ;
+8              listin                                           invalid                 invalid             variables needed;
+9              listing                                          invalid                 invalid      need to put gin cinline and cin.ignore in all
+10             listing                                          valid                   invalid                    another;
+11             calculation                                      valid                    valid                    testing the calculation
+15             decimal point                                    valid                   valid                  worked(used decimal
+16             large numbers                                    valid                   valid                      worked
+17            differing numbers                                 valid                   valid                      worked
+18            no decimal point                                  valid                   valid                      worked
+19            decimal point with large numbers                  valid                   valid                      worked
+11             the order                                        valid                   valid                      not aligned
+12             the order                                        valid                   valid                      not aligned
+13             the order                                        valid                   valid                      not aligned
+14             the order                                        valid                   valid                      not aligned
+15              alignment/order                                 valid                   invalid                   setw is wrong
+15              alignment/order                                 invalid                 invalid                    setw left too low i think
+15              alignment/order                                 invalid                 invalid                    setw25 did nothing
+15              alignment/order                                 invalid                 invalid                  setw right is wierd
+15              alignment/order                                 invalid                 valid                    setw left 33 made it center
+15              alignment/order                                 valid                   valid                      aligned          
+15              alignment/order                                 valid                   valid                     center         
+15              alignment/order                                 valid                   valid                     worked and made it as close to lab        
+
+
