@@ -6,7 +6,6 @@
 // Instructor: Dr. Jonatan Reyes
 // Program Description: simulate shopping cart
 /////////////////////////////////////////////////////////////// 
-
 #include <iostream>
 using namespace std;
 #include <algorithm>
@@ -37,7 +36,7 @@ string storeName;
     cout<< "Enter employee full name: ";
     getline(cin, employeeName);
     cout<<endl;
-
+    cin.ignore();
 
 
 
@@ -87,16 +86,16 @@ string storeName;
     double salesTax = subtotal * 0.15;
     double grandTotal = subtotal + salesTax;
    
-   // OUTPUT RECEIPT SECTION 
+   // --- OUTPUT RECEIPT SECTION ---
     cout << "========================================"<<endl;
     cout << "WELCOME TO " << storeName << endl;
     cout << "EMPLOYEE: " << employeeName << endl;
     cout << "========================================"<<endl;
     
-    // decimal
+    // something?
     cout << fixed << setprecision(2);
     
-    // Print each item 
+    // Print each item manually using its own variable
     cout << left << setw(25) << item1 << " $" << price1 << endl;
     cout << left << setw(25) << item2 << " $" << price2 << endl;
     cout << left << setw(25) << item3 << " $" << price3 << endl;
