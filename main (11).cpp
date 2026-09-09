@@ -36,9 +36,9 @@ string storeName;
     cout<< "Enter employee full name: ";
     getline(cin, employeeName);
     cout<<endl;
+    cout<<"storename ";
+    cin>>storeName;
     cin.ignore();
-
-
 
 
 // Item 1
@@ -87,26 +87,29 @@ string storeName;
     double grandTotal = subtotal + salesTax;
    
    // --- OUTPUT RECEIPT SECTION ---
-    cout << "========================================"<<endl;
-    cout << "WELCOME TO " << storeName << endl;
+    cout << "==========================================="<<endl;
+    cout<< right << setw(33)<<"THANKS FOR SHOPPING AT\n"<<right<<setw(23.5)<<storeName<<endl;
     cout << "EMPLOYEE: " << employeeName << endl;
-    cout << "========================================"<<endl;
+    cout << "store# 3\n"<< "Edinburg, TX"<<endl;
+    cout << "==========================================="<<endl;
     
     // something?
     cout << fixed << setprecision(2);
     
     // Print each item manually using its own variable
-    cout << left << setw(25) << item1 << " $" << price1 << endl;
-    cout << left << setw(25) << item2 << " $" << price2 << endl;
-    cout << left << setw(25) << item3 << " $" << price3 << endl;
-    cout << left << setw(25) << item4 << " $" << price4 << endl;
-    cout << left << setw(25) << item5 << " $" << price5 << endl;
+    cout << left << setw(33) << item1 << " $" << price1 << endl;
+    cout << left << setw(33) << item2 << " $" << price2 << endl;
+    cout << left << setw(33) << item3 << " $" << price3 << endl;
+    cout << left << setw(33) << item4 << " $" << price4 << endl;
+    cout << left << setw(33) << item5 << " $" << price5 << endl;
     
-    cout << "----------------------------------------"<<endl;
-    cout << left << setw(25) << "SUBTOTAL:" << " $" << subtotal << endl;
-    cout << left << setw(25) << "TAX VALUE (15%):" << " $" << salesTax <<endl;
-    cout << left << setw(25) << "GRAND TOTAL:" << " $" << grandTotal << endl;
-    cout << "========================================<<"<<endl;
-    cout << "THANK YOU FOR YOUR BUSINESS!"<<endl;
+    cout << "============================================"<<endl;
+    cout << right << setw(18) << "SUBTOTAL:" << right << setw(17)<<" $" << subtotal << endl;
+    cout << right << setw(25) << "TAX VALUE (15%):" <<right << setw(10)<< " $" << salesTax <<endl;
+    cout << right << setw(21) << "GRAND TOTAL:" << right << setw(14)<<" $"<< grandTotal << endl;
+    cout << "============================================"<<endl;
+    cout << right << setw(35) << "THANK YOU FOR YOUR BUSINESS!"<<endl<<endl;
+   cout << right << setw(31)<<"*** CUSTOMER COPY ***";
+   
     return 0;
 }
