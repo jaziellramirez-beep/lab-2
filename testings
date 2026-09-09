@@ -1,8 +1,8 @@
-case     input                                              expected output       actual inpiut
+case     input                                              expected output       actual inpiut                 statement
 1          apple,banna candy bar                             invalid             invalid
 2                                                        invalid              invalid
 3                                                          invalid              invalid
-4                                                            invalid                  invalid
+4                                                            invalid                  invalid             gor rid of redundant cin.ignore
 5                                                            invalid            invalid
 6                                                                  invalid      invalid
 7                                                          invalid                invalid
