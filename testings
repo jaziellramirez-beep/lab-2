@@ -1,1 +1,20 @@
-xase     input      expected output       actual inpiut
+case     input                                              expected output       actual inpiut
+1          apple,banna candy bar                             invalid             invalid
+2                                                        invalid              invalid
+3                                                          invalid              invalid
+4                                                            invalid                  invalid
+5                                                            invalid            invalid
+6                                                                  invalid      invalid
+7                                                          invalid                invalid
+8                                                                   invalid                  invalid
+9                                                              invalid              invalid
+10                                                            invalid            invalid
+11                                                                  invalid                invalid
+12                                                                invalid                invalid
+13                                                                  invalid            invalid
+14                                                                  invalid                invalid
+15                                                                invalid                    invalid
+16                                                                 valid                  valid
+17                                                                  valid                 valid
+18                                                                  valid                 valid
+19                                                                    valid                 valid
