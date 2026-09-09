@@ -8,7 +8,7 @@ case           input                                         expected output    
 7              listing                                          invalid                 invalid                    forgot ;
 8              listin                                           invalid                 invalid             variables needed;
 9              listing                                          invalid                 invalid      need to put gin cinline and cin.ignore in all
-10             listing                                          valid                   invalid                    another;
+10             listing                                          valid                   invalid                    another; and msiing sin.get/ignrpe
 11             calculation                                      valid                    valid                    testing the calculation
 12             decimal point                                    valid                   valid                  worked(used decimal
 13             large numbers                                    valid                   valid                      worked
