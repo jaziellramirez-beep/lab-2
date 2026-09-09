@@ -87,13 +87,13 @@ string storeName;
     double salesTax = subtotal * 0.15;
     double grandTotal = subtotal + salesTax;
    
-   // --- OUTPUT RECEIPT SECTION ---
+   // OUTPUT RECEIPT SECTION 
     cout << "========================================"<<endl;
     cout << "WELCOME TO " << storeName << endl;
     cout << "EMPLOYEE: " << employeeName << endl;
     cout << "========================================"<<endl;
     
-    // something?
+    // decimal
     cout << fixed << setprecision(2);
     
     // Print each item 
