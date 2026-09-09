@@ -10,22 +10,22 @@ case           input                                         expected output    
 9              listing                                          invalid                 invalid      need to put gin cinline and cin.ignore in all
 10             listing                                          valid                   invalid                    another;
 11             calculation                                      valid                    valid                    testing the calculation
-15             decimal point                                    valid                   valid                  worked(used decimal
-16             large numbers                                    valid                   valid                      worked
-17            differing numbers                                 valid                   valid                      worked
-18            no decimal point                                  valid                   valid                      worked
-19            decimal point with large numbers                  valid                   valid                      worked
-11             the order                                        valid                   valid                      not aligned
-12             the order                                        valid                   valid                      not aligned
-13             the order                                        valid                   valid                      not aligned
-14             the order                                        valid                   valid                      not aligned
-15              alignment/order                                 valid                   invalid                   setw is wrong
-15              alignment/order                                 invalid                 invalid                    setw left too low i think
-15              alignment/order                                 invalid                 invalid                    setw25 did nothing
-15              alignment/order                                 invalid                 invalid                  setw right is wierd
-15              alignment/order                                 invalid                 valid                    setw left 33 made it center
-15              alignment/order                                 valid                   valid                      aligned          
-15              alignment/order                                 valid                   valid                     center         
-15              alignment/order                                 valid                   valid                     worked and made it as close to lab        
-
+12             decimal point                                    valid                   valid                  worked(used decimal
+13             large numbers                                    valid                   valid                      worked
+14            differing numbers                                 valid                   valid                      worked
+15            no decimal point                                  valid                   valid                      worked
+16            decimal point with large numbers                  valid                   valid                      worked
+17             the order                                        valid                   valid                      not aligned
+18             the order                                        valid                   valid                      not aligned
+19             the order                                        valid                   valid                      not aligned
+20             the order                                        valid                   valid                      not aligned
+21              alignment/order                                 valid                   invalid                   setw is wrong
+22              alignment/order                                 invalid                 invalid                    setw left too low i think
+23              alignment/order                                 invalid                 invalid                    setw25 did nothing
+24              alignment/order                                 invalid                 invalid                  setw right is wierd
+25              alignment/order                                 invalid                 valid                    setw left 33 made it center
+26              alignment/order                                 valid                   valid                      aligned          
+27              alignment/order                                 valid                   valid                     center         
+28              alignment/order                                 valid                   valid                     worked and made it as close to lab        
+29
 
