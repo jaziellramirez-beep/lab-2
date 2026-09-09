@@ -11,10 +11,10 @@ case     input                                              expected output     
 10                                                            invalid            invalid
 11                                                                  invalid                invalid
 12                                                                invalid                invalid
-13                                                                  invalid            invalid
-14                                                                  invalid                invalid
-15                                                                invalid                    invalid
-16                                                                 valid                  valid
-17                                                                  valid                 valid
-18                                                                  valid                 valid
-19                                                                    valid                 valid
+13                                                                  valid            valid               not aligned
+14                                                                  valid                valid          not aligned
+15                                                                valid                    validn        worked(used decimal)
+16                                                                 valid                  valid            worked
+17                                                                  valid                 valid              worked
+18                                                                  valid                 valid              worked
+19                                                                    valid                 valid            worked
